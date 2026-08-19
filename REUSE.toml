@@ -1,0 +1,33 @@
+version = 1
+SPDX-PackageName = "xkcd1732adaptation"
+SPDX-PackageSupplier = "Adrien Escande"
+SPDX-PackageDownloadLocation = "https://github.com/aescande/xkcd1732adaptation"
+SPDX-PackageComment = """
+Tools for unofficial adaptation of xkcd 1732 by Randall Munroe.
+Not affiliated with or endorsed by Randall Munroe or xkcd.
+"""
+
+# Rendered editions. Derived from Munroe's artwork, so bound by his terms.
+[[annotations]]
+path = ["results/**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = [
+  "Randall Munroe <https://xkcd.com/1732/>",
+  "Adrien Escande",
+]
+SPDX-License-Identifier = "CC-BY-NC-2.5"
+
+# The page, the workflow, the code, the documentation.
+[[annotations]]
+path = [
+  "site/**",
+  "src/**",
+  ".github/**",
+  "README.md",
+  "LICENSE",
+  "REUSE.toml",
+  ".gitignore",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Adrien Escande"
+SPDX-License-Identifier = "MIT"

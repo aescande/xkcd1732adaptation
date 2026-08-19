@@ -1,0 +1,17 @@
+# Assembled by the Pages workflow, never committed.
+_site/
+
+# The local preview copy of the render. The committed original is in
+# results/fr/ and the workflow puts it here at build time.
+site/fr/timeline.png
+
+# Build outputs. The SVG is deliberately not committed: it is generated,
+# and a stale one sitting beside the code that no longer produces it has
+# caused trouble before.
+*.svg
+
+__pycache__/
+*.py[cod]
+
+.DS_Store
+Thumbs.db

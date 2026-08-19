@@ -1,0 +1,45 @@
+This repository does not have a single licence.
+
+It combines material of different provenance, and a single top-level licence
+would misstate the terms of at least one part. This file is the human-readable
+summary; REUSE.toml carries the same information machine-readably, and full
+licence texts are in LICENSES/.
+
+--------------------------------------------------------------------------
+RENDERED RESULTS                                        results/**/*.png
+--------------------------------------------------------------------------
+Derived from artwork by Randall Munroe, and therefore governed by his terms.
+
+  Copyright (c) Randall Munroe — original work, https://xkcd.com/1732/
+  Copyright (c) Adrien Escande — adaptation and French translation
+
+  Licence: CC BY-NC 2.5
+  https://creativecommons.org/licenses/by-nc/2.5/
+
+Non-commercial use only. Attribution required, to Munroe for the original work
+and to this adaptation for the translation.
+
+--------------------------------------------------------------------------
+SITE AND REPOSITORY PLUMBING     site/**, .github/**, README.md, this file
+--------------------------------------------------------------------------
+
+  Copyright (c) Adrien Escande
+  Licence: MIT
+
+--------------------------------------------------------------------------
+NOT YET PUBLISHED
+--------------------------------------------------------------------------
+
+  src/**          the renderer and its tests
+                  MIT Licence
+
+  data/**         translations, measured curve geometry, cropped figures
+                  Derived from Munroe's artwork. CC BY-NC 2.5, as above.
+
+  xkcd-script.ttf the lettering face, from github.com/ipython/xkcd-font
+                  CC BY-NC 3.0 — a separate licence from a separate project,
+                  requiring its own attribution. May be linked to rather than
+                  redistributed here.
+
+
+
