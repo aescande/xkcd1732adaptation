@@ -1,0 +1,53 @@
+# Assembles the site and publishes it to GitHub Pages.
+#
+# The page and the render live apart in the repository -- HTML in site/,
+# the PNG in results/ -- so that the image exists in exactly one place in
+# git. This job is what brings them together, and it is the only reason
+# they can stay separate.
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - 'results/fr/**'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two deployments race; queue instead, and do not cancel one
+# that is already publishing.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Assemble the site
+        run: |
+          mkdir -p _site/fr
+          cp -r site/. _site/
+          cp results/fr/timeline.png _site/fr/timeline.png
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
