@@ -1,0 +1,38 @@
+# Runs the tests and checks that both editions build to the reference SVGs.
+name: Tests
+
+on:
+  push:
+    paths:
+      - 'src/**'
+      - 'data/**'
+      - 'tests/**'
+      - '3rdparty/**'
+      - '.github/workflows/tests.yml'
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: python -m pip install -r src/requirements.txt
+
+      - name: Tests
+        run: |
+          python tests/test_linebreak.py
+          python tests/test_adaptation.py
+          python tests/test_keys.py
+
+      - name: Build both editions and compare with the references
+        run: python tests/test_build.py
