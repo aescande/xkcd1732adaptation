@@ -7,9 +7,10 @@ Tools for unofficial adaptation of xkcd 1732 by Randall Munroe.
 Not affiliated with or endorsed by Randall Munroe or xkcd.
 """
 
-# Rendered editions. Derived from Munroe's artwork, so bound by his terms.
+# Rendered editions and their data. Derived from Munroe's artwork, so bound by
+# his terms.
 [[annotations]]
-path = ["results/**"]
+path = ["results/**", "data/**"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = [
   "Randall Munroe <https://xkcd.com/1732/>",
@@ -22,6 +23,9 @@ SPDX-License-Identifier = "CC-BY-NC-2.5"
 path = [
   "site/**",
   "src/**",
+  "tests/**",
+  "data/FORMAT.md",
+  "3rdparty/xkcd-font/README.md",
   ".github/**",
   "README.md",
   "LICENSE",
@@ -31,3 +35,10 @@ path = [
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Adrien Escande"
 SPDX-License-Identifier = "MIT"
+
+# The lettering face, redistributed unmodified.
+[[annotations]]
+path = ["3rdparty/xkcd-font/xkcd-script.ttf", "3rdparty/xkcd-font/LICENSE"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "ipython/xkcd-font contributors <https://github.com/ipython/xkcd-font>"
+SPDX-License-Identifier = "CC-BY-NC-3.0"
