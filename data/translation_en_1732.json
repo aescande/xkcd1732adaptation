@@ -1,0 +1,1791 @@
+{
+ "locale": {
+  "thousands_sep": "",
+  "decimal_sep": ".",
+  "era_bce": "BCE",
+  "era_ce": "CE",
+  "degree": "°C",
+  "minus": "-",
+  "linebreak": {
+   "nbsp": " ",
+   "glue_before": "",
+   "glue_after": "",
+   "protected": [
+    "\\bET\\s+AL\\b",
+    "\\d+\\s*-\\s*\\d+\\s*m\\b",
+    "W/m²\\s*AT\\s*\\d+°N"
+   ],
+   "short_word_max": 2,
+   "short_word_penalty": 0.25,
+   "comma_bonus": 0.1,
+   "break_chars": ","
+  }
+ },
+ "sources": {
+  "en": "SOURCES: SHAKUN ET AL (2012), MARCOTT ET AL (2013), ANNAN AND HARGREAVES (2013), HADCRUT4, IPCC",
+  "text": "SOURCES: SHAKUN ET AL (2012), MARCOTT ET AL (2013), ANNAN AND HARGREAVES (2013), HADCRUT4, IPCC",
+  "box": [
+   1405,
+   428,
+   1429,
+   1388
+  ],
+  "rotate": 90,
+  "align": "left"
+ },
+ "hover": {
+  "en": "[After setting your car on fire] Listen, your car's temperature has changed before.",
+  "text": "[After setting your car on fire] Listen, your car's temperature has changed before."
+ },
+ "defaults": {
+  "*": {
+   "letterSpacing": "-0.03em"
+  },
+  "bracket": {
+   "fontSize": 40,
+   "lineHeight": 34
+  },
+  "dialogue": {
+   "fontSize": 29,
+   "lineHeight": 28
+  },
+  "event": {
+   "fontSize": 42,
+   "lineHeight": 43
+  },
+  "figure": {
+   "fontSize": 35,
+   "lineHeight": 29
+  },
+  "header": {
+   "fontSize": 40,
+   "lineHeight": 34,
+   "letterSpacing": "0.0em"
+  },
+  "meta": {
+   "fontSize": 35,
+   "lineHeight": 33
+  },
+  "scenario": {
+   "fontSize": 40,
+   "lineHeight": 36
+  },
+  "story": {
+   "fontSize": 42,
+   "lineHeight": 42
+  }
+ },
+ "entries": [
+  {
+   "type": "header",
+   "en": "A TIMELINE OF EARTH'S AVERAGE TEMPERATURE",
+   "text": "A TIMELINE OF EARTH'S AVERAGE TEMPERATURE",
+   "align": "center",
+   "at": [
+    741,
+    57
+   ],
+   "fontSize": 77,
+   "lineHeight": 65
+  },
+  {
+   "type": "header",
+   "en": "SINCE THE LAST ICE AGE GLACIATION",
+   "text": "SINCE THE LAST ICE AGE GLACIATION",
+   "align": "left",
+   "at": [
+    455,
+    120
+   ],
+   "fontSize": 45,
+   "lineHeight": 38
+  },
+  {
+   "type": "header",
+   "en": "WHEN PEOPLE SAY \"THE CLIMATE HAS CHANGED BEFORE,\" THESE ARE THE KINDS OF CHANGES THEY'RE TALKING ABOUT.",
+   "text": "WHEN PEOPLE SAY \"THE CLIMATE HAS CHANGED BEFORE,\" THESE ARE THE KINDS OF CHANGES THEY'RE TALKING ABOUT.",
+   "lines": 2,
+   "align": "center",
+   "at": [
+    740,
+    212
+   ]
+  },
+  {
+   "type": "header",
+   "en": "TEMPERATURE",
+   "text": "TEMPERATURE",
+   "align": "center",
+   "at": [
+    737,
+    306
+   ],
+   "fontSize": 51,
+   "lineHeight": 43
+  },
+  {
+   "type": "header",
+   "en": "START",
+   "text": "START",
+   "align": "center",
+   "at": [
+    169,
+    340
+   ]
+  },
+  {
+   "type": "header",
+   "en": "COMPARED TO THE 1961-1990 AVERAGE",
+   "text": "COMPARED TO THE 1961-1990 AVERAGE",
+   "lines": 2,
+   "align": "center",
+   "at": [
+    739,
+    350
+   ],
+   "fontSize": 23,
+   "lineHeight": 22
+  },
+  {
+   "type": "header",
+   "en": "COLDER",
+   "text": "COLDER",
+   "align": "center",
+   "at": [
+    546,
+    366
+   ]
+  },
+  {
+   "type": "header",
+   "en": "WARMER",
+   "text": "WARMER",
+   "align": "center",
+   "at": [
+    930,
+    368
+   ]
+  },
+  {
+   "type": "story",
+   "en": "AT THE START OF OUR TIMELINE, 22,000 YEARS AGO, EARTH IS 4° COLDER THAN DURING THE LATE 20TH CENTURY.",
+   "text": "AT THE START OF OUR TIMELINE, 22,000 YEARS AGO, EARTH IS 4° COLDER THAN DURING THE LATE 20TH CENTURY.",
+   "lines": 2,
+   "align": "left",
+   "at": [
+    235,
+    559
+   ]
+  },
+  {
+   "type": "story",
+   "en": "BOSTON IS BURIED UNDER ALMOST A MILE OF ICE, AND THE GLACIERS REACH AS FAR SOUTH AS NEW YORK CITY.",
+   "text": [
+    "BOSTON IS BURIED UNDER ALMOST A MILE OF ICE, AND",
+    "THE GLACIERS REACH AS FAR SOUTH AS NEW YORK CITY."
+   ],
+   "align": "left",
+   "at": [
+    230,
+    776
+   ]
+  },
+  {
+   "type": "figure",
+   "en": "BOSTON",
+   "text": "BOSTON",
+   "align": "center",
+   "at": [
+    989,
+    864
+   ],
+   "fontSize": 39,
+   "lineHeight": 32
+  },
+  {
+   "type": "figure",
+   "en": "NEW YORK",
+   "text": "NEW YORK",
+   "align": "center",
+   "at": [
+    449,
+    886
+   ],
+   "fontSize": 41,
+   "lineHeight": 34
+  },
+  {
+   "type": "figure",
+   "en": "ICE",
+   "text": "ICE",
+   "align": "center",
+   "at": [
+    990,
+    949
+   ],
+   "rotate": -8,
+   "fontSize": 56,
+   "lineHeight": 46
+  },
+  {
+   "type": "figure",
+   "en": "ICE",
+   "text": "ICE",
+   "align": "center",
+   "at": [
+    484,
+    961
+   ],
+   "rotate": -8
+  },
+  {
+   "type": "figure",
+   "en": "MODERN SKYLINE",
+   "text": "MODERN SKYLINE",
+   "lines": 2,
+   "align": "center",
+   "at": [
+    1204,
+    975
+   ],
+   "fontSize": 25,
+   "lineHeight": 20
+  },
+  {
+   "type": "story",
+   "en": "BUT THE WORLD IS ABOUT TO WARM UP.",
+   "text": "BUT THE WORLD IS ABOUT TO WARM UP.",
+   "align": "left",
+   "at": [
+    234,
+    1148
+   ]
+  },
+  {
+   "type": "story",
+   "en": "BY THIS TIME, HUMANS HAVE ALREADY SPREAD ACROSS AFRICA, EURASIA, AND AUSTRALIA.",
+   "text": "BY THIS TIME, HUMANS HAVE ALREADY SPREAD ACROSS AFRICA, EURASIA, AND AUSTRALIA.",
+   "lines": 2,
+   "align": "left",
+   "at": [
+    233,
+    1377
+   ]
+  },
+  {
+   "type": "story",
+   "en": "THEY'VE CREATED PAINTING, POTTERY, ROPE, AND BOWS AND ARROWS, BUT HAVEN'T DEVELOPED WRITING OR FARMING.",
+   "text": [
+    "THEY'VE CREATED PAINTING, POTTERY, ROPE,",
+    "AND BOWS AND ARROWS, BUT HAVEN'T",
+    "DEVELOPED WRITING OR FARMING."
+   ],
+   "align": "left",
+   "at": [
+    230,
+    1635
+   ]
+  },
+  {
+   "type": "story",
+   "en": "CHANGES IN THE EARTH'S ORBIT MEAN THAT MORE SUNLIGHT REACHES THE POLAR ICE...",
+   "text": "CHANGES IN THE EARTH'S ORBIT MEAN THAT MORE SUNLIGHT REACHES THE POLAR ICE...",
+   "lines": 2,
+   "align": "left",
+   "at": [
+    234,
+    2304
+   ]
+  },
+  {
+   "type": "figure",
+   "en": "SUMMER SUN W/m² AT 60°N",
+   "text": "SUMMER SUN W/m² AT 60°N",
+   "align": "center",
+   "at": [
+    1088,
+    2270
+   ],
+   "wscale": 0.93,
+   "fontSize": 25,
+   "lineHeight": 21
+  },
+  {
+   "type": "figure",
+   "en": "ICE",
+   "text": "ICE",
+   "align": "center",
+   "at": [
+    720,
+    2561
+   ]
+  },
+  {
+   "type": "figure",
+   "en": "ICE",
+   "text": "ICE",
+   "align": "center",
+   "at": [
+    459,
+    2569
+   ],
+   "rotate": -8
+  },
+  {
+   "type": "figure",
+   "en": "ICE",
+   "text": "ICE",
+   "align": "center",
+   "at": [
+    655,
+    2944
+   ],
+   "fontSize": 31,
+   "lineHeight": 26
+  },
+  {
+   "type": "story",
+   "en": "...AND THE ICE SHEETS START TO MELT.",
+   "text": "...AND THE ICE SHEETS START TO MELT.",
+   "align": "left",
+   "at": [
+    247,
+    3178
+   ]
+  },
+  {
+   "type": "story",
+   "en": "TEMPERATURES HAVE BEEN CREEPING UPWARD, BUT AROUND THIS POINT, CO₂ LEVELS START TO CLIMB...",
+   "text": "TEMPERATURES HAVE BEEN CREEPING UPWARD, BUT AROUND THIS POINT, CO₂ LEVELS START TO CLIMB...",
+   "lines": 3,
+   "align": "left",
+   "at": [
+    242,
+    4002
+   ]
+  },
+  {
+   "type": "story",
+   "en": "...AND THEN THE WARMING SPEEDS UP.",
+   "text": "...AND THEN THE WARMING SPEEDS UP.",
+   "lines": 2,
+   "align": "left",
+   "at": [
+    246,
+    4856
+   ]
+  },
+  {
+   "type": "dialogue",
+   "en": "STILL PRETTY COLD.",
+   "text": "STILL PRETTY COLD.",
+   "align": "left",
+   "at": [
+    234,
+    5399
+   ]
+  },
+  {
+   "type": "meta",
+   "en": "LIMITS OF THIS DATA:",
+   "text": "LIMITS OF THIS DATA:",
+   "align": "left",
+   "at": [
+    765,
+    5815
+   ]
+  },
+  {
+   "type": "meta",
+   "en": "SHORT WARMING OR COOLING SPIKES MIGHT BE \"SMOOTHED OUT\" BY THESE RECONSTRUCTIONS, BUT ONLY IF THEY'RE SMALL OR BRIEF ENOUGH.",
+   "text": [
+    "SHORT WARMING OR COOLING SPIKES MIGHT BE",
+    "\"SMOOTHED OUT\" BY THESE RECONSTRUCTIONS,",
+    "BUT ONLY IF THEY'RE SMALL OR BRIEF ENOUGH."
+   ],
+   "align": "left",
+   "at": [
+    756,
+    5891
+   ]
+  },
+  {
+   "type": "meta",
+   "en": "POSSIBLE",
+   "text": "POSSIBLE",
+   "align": "center",
+   "at": [
+    940,
+    5971
+   ]
+  },
+  {
+   "type": "meta",
+   "en": "UNLIKELY",
+   "text": "UNLIKELY",
+   "align": "center",
+   "at": [
+    1205,
+    5974
+   ]
+  },
+  {
+   "type": "meta",
+   "en": "RECONSTRUCTIONS ARE FROM SHAKUN (2012) AND MARCOTT (2013), SCALED TO ANNAN + HARGREAVES (2013) ESTIMATE FOR THE LAST GLACIAL PERIOD.",
+   "text": "RECONSTRUCTIONS ARE FROM SHAKUN (2012) AND MARCOTT (2013), SCALED TO ANNAN + HARGREAVES (2013) ESTIMATE FOR THE LAST GLACIAL PERIOD.",
+   "lines": 3,
+   "align": "left",
+   "at": [
+    751,
+    6268
+   ]
+  },
+  {
+   "type": "event",
+   "en": "IN WHAT IS NOW FRANCE, HUMANS PAINT MURALS ON THE WALLS OF THE LASCAUX CAVES",
+   "text": [
+    "IN WHAT IS NOW FRANCE, HUMANS PAINT MURALS",
+    "ON THE WALLS OF THE LASCAUX CAVES"
+   ],
+   "align": "left",
+   "at": [
+    284,
+    6791
+   ]
+  },
+  {
+   "type": "story",
+   "en": "ICE SHEETS AROUND ALASKA SHRINK, EXPOSING A LAND BRIDGE BETWEEN ASIA AND NORTH AMERICA",
+   "text": [
+    "ICE SHEETS AROUND ALASKA SHRINK,",
+    "EXPOSING A LAND BRIDGE BETWEEN",
+    "ASIA AND NORTH AMERICA"
+   ],
+   "align": "left",
+   "at": [
+    330,
+    7595
+   ]
+  },
+  {
+   "type": "dialogue",
+   "en": "COOL.",
+   "text": "COOL.",
+   "align": "center",
+   "at": [
+    402,
+    8016
+   ]
+  },
+  {
+   "type": "event",
+   "en": "HUMANS REACH NORTH AMERICA",
+   "text": "HUMANS REACH NORTH AMERICA",
+   "align": "left",
+   "at": [
+    345,
+    8216
+   ]
+  },
+  {
+   "type": "dialogue",
+   "en": "THAT'S IT! I'M MOVING TO CANADA!",
+   "text": [
+    "THAT'S IT!",
+    "I'M MOVING",
+    "TO CANADA!"
+   ],
+   "align": "center",
+   "at": [
+    1062,
+    8695
+   ],
+   "letterSpacing": "-0.0em"
+  },
+  {
+   "type": "story",
+   "en": "THE EDGE OF THE ICE WITHDRAWS FROM NEW YORK CITY AND RETREATS NORTH",
+   "text": "THE EDGE OF THE ICE WITHDRAWS FROM NEW YORK CITY AND RETREATS NORTH",
+   "lines": 2,
+   "align": "left",
+   "at": [
+    371,
+    8749
+   ]
+  },
+  {
+   "type": "event",
+   "en": "HUMANS DOMESTICATE DOGS",
+   "text": "HUMANS DOMESTICATE DOGS",
+   "align": "left",
+   "at": [
+    382,
+    9136
+   ]
+  },
+  {
+   "type": "bracket",
+   "en": "(DATE UNCERTAIN, MAY BE MUCH EARLIER)",
+   "text": "(DATE UNCERTAIN, MAY BE MUCH EARLIER)",
+   "align": "left",
+   "at": [
+    370,
+    9174
+   ]
+  },
+  {
+   "type": "dialogue",
+   "en": "OKAY, YOU CAN LIVE IN OUR HOMES AND WE'LL FEED YOU, BUT WE'LL STILL GET MAD IF YOU POOP ON THE FLOOR.",
+   "text": "OKAY, YOU CAN LIVE IN OUR HOMES AND WE'LL FEED YOU, BUT WE'LL STILL GET MAD IF YOU POOP ON THE FLOOR.",
+   "lines": 4,
+   "align": "left",
+   "at": [
+    494,
+    9333
+   ]
+  },
+  {
+   "type": "dialogue",
+   "en": "DEAL.",
+   "text": "DEAL.",
+   "align": "center",
+   "at": [
+    832,
+    9410
+   ]
+  },
+  {
+   "type": "dialogue",
+   "en": "AND WE GET TO BREED YOU TO BE TINY AND DRESS YOU IN LITTLE COSTUMES.",
+   "text": [
+    "AND WE GET TO BREED YOU",
+    "TO BE TINY AND DRESS",
+    "YOU IN LITTLE COSTUMES."
+   ],
+   "align": "left",
+   "at": [
+    540,
+    9476
+   ]
+  },
+  {
+   "type": "dialogue",
+   "en": "...WAIT.",
+   "text": "...WAIT.",
+   "align": "center",
+   "at": [
+    802,
+    9548
+   ]
+  },
+  {
+   "type": "event",
+   "en": "WOOLY RHINO GOES EXTINCT",
+   "text": "WOOLY RHINO GOES EXTINCT",
+   "align": "left",
+   "at": [
+    418,
+    9815
+   ]
+  },
+  {
+   "type": "story",
+   "en": "WASHINGTON STATE IS SCOURED BY HUGE FLOODS AS GLACIAL DAMS BURST AND LAKES OF MELTWATER FLOW TO THE SEA",
+   "text": "WASHINGTON STATE IS SCOURED BY HUGE FLOODS AS GLACIAL DAMS BURST AND LAKES OF MELTWATER FLOW TO THE SEA",
+   "lines": 3,
+   "align": "left",
+   "at": [
+    494,
+    10270
+   ]
+  },
+  {
+   "type": "event",
+   "en": "ICE SHEETS WITHDRAW FROM CHICAGO",
+   "text": "ICE SHEETS WITHDRAW FROM CHICAGO",
+   "align": "left",
+   "at": [
+    527,
+    10761
+   ]
+  },
+  {
+   "type": "event",
+   "en": "HUMANS SETTLE ABU HUREYRA IN SYRIA",
+   "text": "HUMANS SETTLE ABU HUREYRA IN SYRIA",
+   "align": "left",
+   "at": [
+    570,
+    11612
+   ]
+  },
+  {
+   "type": "story",
+   "en": "TEMPERATURES START TO DECLINE, MAINLY IN THE NORTHERN HEMISPHERE",
+   "text": "TEMPERATURES START TO DECLINE, MAINLY IN THE NORTHERN HEMISPHERE",
+   "lines": 2,
+   "align": "left",
+   "at": [
+    578,
+    11940
+   ]
+  },
+  {
+   "type": "story",
+   "en": "THIS MAY BE CAUSED BY CHANGES IN OCEAN CIRCULATION DUE TO THE FLOODS OF COLD, FRESH MELTWATER FLOWING INTO THE ATLANTIC AS THE NORTH AMERICAN ICE SHEET MELTS.",
+   "text": "THIS MAY BE CAUSED BY CHANGES IN OCEAN CIRCULATION DUE TO THE FLOODS OF COLD, FRESH MELTWATER FLOWING INTO THE ATLANTIC AS THE NORTH AMERICAN ICE SHEET MELTS.",
+   "lines": 4,
+   "align": "left",
+   "at": [
+    568,
+    12088
+   ]
+  },
+  {
+   "type": "story",
+   "en": "THIS COOLER PERIOD IS CALLED THE YOUNGER DRYAS",
+   "text": "THIS COOLER PERIOD IS CALLED THE YOUNGER DRYAS",
+   "lines": 2,
+   "align": "left",
+   "at": [
+    552,
+    12252
+   ]
+  },
+  {
+   "type": "event",
+   "en": "HUMANS REACH ARGENTINA",
+   "text": "HUMANS REACH ARGENTINA",
+   "lines": 2,
+   "align": "right",
+   "at": [
+    470,
+    12419
+   ]
+  },
+  {
+   "type": "story",
+   "en": "WARMING RESUMES",
+   "text": "WARMING RESUMES",
+   "align": "left",
+   "at": [
+    575,
+    13065
+   ]
+  },
+  {
+   "type": "event",
+   "en": "HUMAN SETTLEMENTS AT JERICHO",
+   "text": "HUMAN SETTLEMENTS AT JERICHO",
+   "align": "left",
+   "at": [
+    581,
+    13605
+   ]
+  },
+  {
+   "type": "event",
+   "en": "FIRST DEVELOPMENT OF FARMING",
+   "text": "FIRST DEVELOPMENT OF FARMING",
+   "align": "left",
+   "at": [
+    627,
+    13989
+   ]
+  },
+  {
+   "type": "event",
+   "en": "SABER-TOOTHED CAT GOES EXTINCT",
+   "text": [
+    "SABER-TOOTHED CAT",
+    "GOES EXTINCT"
+   ],
+   "align": "left",
+   "at": [
+    727,
+    14654
+   ]
+  },
+  {
+   "type": "event",
+   "en": "HORSES DISAPPEAR FROM NORTH AMERICA",
+   "text": "HORSES DISAPPEAR FROM NORTH AMERICA",
+   "lines": 2,
+   "align": "right",
+   "at": [
+    683,
+    14903
+   ]
+  },
+  {
+   "type": "event",
+   "en": "LAST NORTH AMERICAN POKEMON GO EXTINCT",
+   "text": "LAST NORTH AMERICAN POKEMON GO EXTINCT",
+   "lines": 2,
+   "align": "right",
+   "at": [
+    702,
+    15058
+   ]
+  },
+  {
+   "type": "dialogue",
+   "en": "THAT IS NOT A REAL FACT.",
+   "text": "THAT IS NOT A REAL FACT.",
+   "lines": 2,
+   "align": "right",
+   "at": [
+    674,
+    15157
+   ]
+  },
+  {
+   "type": "story",
+   "en": "TEMPERATURES REACH MODERN LEVELS",
+   "text": "TEMPERATURES REACH MODERN LEVELS",
+   "lines": 2,
+   "align": "left",
+   "at": [
+    763,
+    15218
+   ]
+  },
+  {
+   "type": "story",
+   "en": "RISING SEAS CUT OFF THE LAND BRIDGE BETWEEN NORTH AMERICA AND ASIA",
+   "text": [
+    "RISING SEAS CUT OFF",
+    "THE LAND BRIDGE BETWEEN",
+    "NORTH AMERICA AND ASIA"
+   ],
+   "align": "left",
+   "at": [
+    776,
+    15379
+   ]
+  },
+  {
+   "type": "event",
+   "en": "CATTLE DOMESTICATED",
+   "text": "CATTLE DOMESTICATED",
+   "align": "left",
+   "at": [
+    793,
+    15618
+   ]
+  },
+  {
+   "type": "event",
+   "en": "ICE SHEETS RETREAT ACROSS THE CANADIAN BORDER",
+   "text": "ICE SHEETS RETREAT ACROSS THE CANADIAN BORDER",
+   "lines": 2,
+   "align": "left",
+   "at": [
+    792,
+    15815
+   ]
+  },
+  {
+   "type": "story",
+   "en": "TEMPERATURES START TO LEVEL OUT SLIGHTLY ABOVE 1961-1990 LEVELS",
+   "text": "TEMPERATURES START TO LEVEL OUT SLIGHTLY ABOVE 1961-1990 LEVELS",
+   "lines": 3,
+   "align": "left",
+   "at": [
+    808,
+    16277
+   ]
+  },
+  {
+   "type": "story",
+   "en": "THIS WARM, STABLE PERIOD IS CALLED THE HOLOCENE CLIMATE OPTIMUM",
+   "text": "THIS WARM, STABLE PERIOD IS CALLED THE HOLOCENE CLIMATE OPTIMUM",
+   "lines": 2,
+   "align": "right",
+   "at": [
+    778,
+    17056
+   ]
+  },
+  {
+   "type": "event",
+   "en": "JIAHU SETTLED IN CHINA",
+   "text": "JIAHU SETTLED IN CHINA",
+   "align": "right",
+   "at": [
+    767,
+    17579
+   ]
+  },
+  {
+   "type": "story",
+   "en": "FINAL COLLAPSE OF THE NORTH AMERICAN ICE SHEET LEADS TO RAPID 2-4m SEA LEVEL RISE...",
+   "text": [
+    "FINAL COLLAPSE OF THE",
+    "NORTH AMERICAN ICE SHEET",
+    "LEADS TO RAPID 2-4m",
+    "SEA LEVEL RISE..."
+   ],
+   "align": "left",
+   "at": [
+    840,
+    17876
+   ]
+  },
+  {
+   "type": "story",
+   "en": "...AND A PERIOD OF COOLING IN THE NORTHERN HEMISPHERE",
+   "text": "...AND A PERIOD OF COOLING IN THE NORTHERN HEMISPHERE",
+   "lines": 3,
+   "align": "left",
+   "at": [
+    861,
+    18243
+   ]
+  },
+  {
+   "type": "story",
+   "en": "AS SEAS RISE TO NEAR THEIR MODERN LEVELS, BRITAIN IS CUT OFF FROM MAINLAND EUROPE",
+   "text": "AS SEAS RISE TO NEAR THEIR MODERN LEVELS, BRITAIN IS CUT OFF FROM MAINLAND EUROPE",
+   "lines": 3,
+   "align": "right",
+   "at": [
+    778,
+    18557
+   ]
+  },
+  {
+   "type": "event",
+   "en": "HUMANS DEVELOP COPPER METALWORKING",
+   "text": "HUMANS DEVELOP COPPER METALWORKING",
+   "lines": 2,
+   "align": "left",
+   "at": [
+    827,
+    19526
+   ]
+  },
+  {
+   "type": "event",
+   "en": "MASSIVE VOLCANIC ERUPTION IN OREGON CREATES CRATER LAKE",
+   "text": [
+    "MASSIVE VOLCANIC ERUPTION IN",
+    "OREGON CREATES CRATER LAKE"
+   ],
+   "align": "right",
+   "at": [
+    774,
+    19850
+   ]
+  },
+  {
+   "type": "event",
+   "en": "GOLD METALWORKING",
+   "text": "GOLD METALWORKING",
+   "align": "left",
+   "at": [
+    851,
+    20203
+   ]
+  },
+  {
+   "type": "event",
+   "en": "INVENTION OF THE WHEEL",
+   "text": "INVENTION OF THE WHEEL",
+   "align": "right",
+   "at": [
+    792,
+    20416
+   ]
+  },
+  {
+   "type": "story",
+   "en": "EARTH BEGINS TO COOL SLOWLY, MAINLY DUE TO REGULAR CYCLES IN ITS ORBIT",
+   "text": [
+    "EARTH BEGINS TO COOL",
+    "SLOWLY, MAINLY DUE TO",
+    "REGULAR CYCLES IN ITS ORBIT"
+   ],
+   "align": "right",
+   "at": [
+    781,
+    20605
+   ]
+  },
+  {
+   "type": "event",
+   "en": "PROTO-INDO-EUROPEAN LANGUAGE DEVELOPS",
+   "text": "PROTO-INDO-EUROPEAN LANGUAGE DEVELOPS",
+   "lines": 2,
+   "align": "right",
+   "at": [
+    774,
+    21001
+   ]
+  },
+  {
+   "type": "dialogue",
+   "en": "LET'S MAKE OUR LANGUAGE HEAVILY INFLECTED, SO FUTURE STUDENTS HAVE TO MEMORIZE A ZILLION VERB ENDINGS!",
+   "text": "LET'S MAKE OUR LANGUAGE HEAVILY INFLECTED, SO FUTURE STUDENTS HAVE TO MEMORIZE A ZILLION VERB ENDINGS!",
+   "lines": 3,
+   "align": "left",
+   "at": [
+    844,
+    21053
+   ]
+  },
+  {
+   "type": "dialogue",
+   "en": "OKAY!",
+   "text": "OKAY!",
+   "align": "center",
+   "at": [
+    1061,
+    21127
+   ]
+  },
+  {
+   "type": "event",
+   "en": "PERMANENT SETTLEMENTS IN THE FERTILE CRESCENT",
+   "text": "PERMANENT SETTLEMENTS IN THE FERTILE CRESCENT",
+   "lines": 2,
+   "align": "right",
+   "at": [
+    788,
+    21378
+   ]
+  },
+  {
+   "type": "event",
+   "en": "HORSES DOMESTICATED",
+   "text": "HORSES DOMESTICATED",
+   "align": "left",
+   "at": [
+    831,
+    21645
+   ]
+  },
+  {
+   "type": "event",
+   "en": "MINOAN CULTURE ARISES ON CRETE",
+   "text": "MINOAN CULTURE ARISES ON CRETE",
+   "lines": 2,
+   "align": "right",
+   "at": [
+    779,
+    22045
+   ]
+  },
+  {
+   "type": "event",
+   "en": "EGYPTIAN MUMMIFICATION",
+   "text": "EGYPTIAN MUMMIFICATION",
+   "align": "left",
+   "at": [
+    832,
+    22281
+   ]
+  },
+  {
+   "type": "event",
+   "en": "RISE OF THE INDUS VALLEY CIVILIZATION",
+   "text": "RISE OF THE INDUS VALLEY CIVILIZATION",
+   "lines": 2,
+   "align": "left",
+   "at": [
+    840,
+    22532
+   ]
+  },
+  {
+   "type": "story",
+   "en": "INVENTION OF WRITING IN SUMER \"PREHISTORY\" ENDS, \"HISTORY\" BEGINS",
+   "text": "INVENTION OF WRITING IN SUMER \"PREHISTORY\" ENDS, \"HISTORY\" BEGINS",
+   "lines": 2,
+   "align": "right",
+   "at": [
+    787,
+    22594
+   ]
+  },
+  {
+   "type": "event",
+   "en": "EARLIEST HUMAN WHOSE NAME WE KNOW",
+   "text": "EARLIEST HUMAN WHOSE NAME WE KNOW",
+   "lines": 2,
+   "align": "left",
+   "at": [
+    836,
+    22768
+   ]
+  },
+  {
+   "type": "bracket",
+   "en": "(PHARAOH IRY-HOR IN EGYPT)",
+   "text": "(PHARAOH IRY-HOR IN EGYPT)",
+   "align": "left",
+   "at": [
+    832,
+    22825
+   ],
+   "fontSize": "-5",
+   "lineHeight": "-5"
+  },
+  {
+   "type": "event",
+   "en": "THREE SOVEREIGNS AND FIVE EMPERORS PERIOD IN CHINA",
+   "text": "THREE SOVEREIGNS AND FIVE EMPERORS PERIOD IN CHINA",
+   "lines": 2,
+   "align": "left",
+   "at": [
+    840,
+    23173
+   ]
+  },
+  {
+   "type": "event",
+   "en": "GILGAMESH",
+   "text": "GILGAMESH",
+   "align": "left",
+   "at": [
+    816,
+    23347
+   ]
+  },
+  {
+   "type": "event",
+   "en": "IMHOTEP",
+   "text": "IMHOTEP",
+   "align": "right",
+   "at": [
+    763,
+    23406
+   ]
+  },
+  {
+   "type": "event",
+   "en": "MAYAN CULTURE EMERGES",
+   "text": "MAYAN CULTURE EMERGES",
+   "align": "left",
+   "at": [
+    812,
+    23467
+   ]
+  },
+  {
+   "type": "event",
+   "en": "GREAT PYRAMID CONSTRUCTED",
+   "text": "GREAT PYRAMID CONSTRUCTED",
+   "lines": 2,
+   "align": "right",
+   "at": [
+    749,
+    23507
+   ]
+  },
+  {
+   "type": "event",
+   "en": "CORDED WARE CULTURE IN EUROPE",
+   "text": [
+    "CORDED WARE CULTURE",
+    "IN EUROPE"
+   ],
+   "align": "left",
+   "at": [
+    813,
+    23624
+   ]
+  },
+  {
+   "type": "event",
+   "en": "STONEHENGE COMPLETED",
+   "text": "STONEHENGE COMPLETED",
+   "align": "right",
+   "at": [
+    750,
+    23966
+   ]
+  },
+  {
+   "type": "event",
+   "en": "CHARIOTS DEVELOPED",
+   "text": "CHARIOTS DEVELOPED",
+   "align": "left",
+   "at": [
+    808,
+    24201
+   ]
+  },
+  {
+   "type": "event",
+   "en": "ALPHABETIC WRITING DEVELOPED IN EGYPT",
+   "text": "ALPHABETIC WRITING DEVELOPED IN EGYPT",
+   "lines": 2,
+   "align": "right",
+   "at": [
+    742,
+    24549
+   ]
+  },
+  {
+   "type": "event",
+   "en": "LAST MAMMOTHS ON A TINY SIBERIAN ISLAND GO EXTINCT",
+   "text": "LAST MAMMOTHS ON A TINY SIBERIAN ISLAND GO EXTINCT",
+   "lines": 2,
+   "align": "left",
+   "at": [
+    789,
+    24696
+   ]
+  },
+  {
+   "type": "event",
+   "en": "MINOAN ERUPTION",
+   "text": "MINOAN ERUPTION",
+   "align": "right",
+   "at": [
+    731,
+    24739
+   ]
+  },
+  {
+   "type": "event",
+   "en": "IRON SMELTING",
+   "text": "IRON SMELTING",
+   "align": "right",
+   "at": [
+    724,
+    24997
+   ]
+  },
+  {
+   "type": "event",
+   "en": "OLMEC CIVILIZATION DEVELOPS IN CENTRAL AMERICA",
+   "text": "OLMEC CIVILIZATION DEVELOPS IN CENTRAL AMERICA",
+   "lines": 2,
+   "align": "left",
+   "at": [
+    779,
+    25078
+   ]
+  },
+  {
+   "type": "event",
+   "en": "SETTING OF THE ILIAD AND THE ODYSSEY",
+   "text": [
+    "SETTING OF THE",
+    "ILIAD AND THE",
+    "ODYSSEY"
+   ],
+   "align": "left",
+   "at": [
+    774,
+    25253
+   ],
+   "fontSize": 38,
+   "lineHeight": 38,
+   "wscale": 0.92
+  },
+  {
+   "type": "dialogue",
+   "en": "NOT A TRAP",
+   "text": "NOT A TRAP",
+   "align": "center",
+   "at": [
+    1062,
+    25242
+   ],
+   "wscale": 0.9,
+   "rotate": -8,
+   "fontSize": 18,
+   "lineHeight": 17
+  },
+  {
+   "type": "event",
+   "en": "INVASION OF THE SEA PEOPLES*",
+   "text": "INVASION OF THE SEA PEOPLES*",
+   "align": "right",
+   "at": [
+    724,
+    25321
+   ]
+  },
+  {
+   "type": "bracket",
+   "en": "*A REAL THING",
+   "text": "*A REAL THING",
+   "align": "right",
+   "at": [
+    705,
+    25365
+   ]
+  },
+  {
+   "type": "event",
+   "en": "POLYNESIANS EXPLORE THE PACIFIC OCEAN",
+   "text": "POLYNESIANS EXPLORE THE PACIFIC OCEAN",
+   "lines": 2,
+   "align": "left",
+   "at": [
+    770,
+    25554
+   ]
+  },
+  {
+   "type": "event",
+   "en": "SOLOMON",
+   "text": "SOLOMON",
+   "align": "right",
+   "at": [
+    721,
+    25586
+   ]
+  },
+  {
+   "type": "event",
+   "en": "ILLIAD AND ODYSSEY COMPOSED",
+   "text": "ILLIAD AND ODYSSEY COMPOSED",
+   "align": "left",
+   "at": [
+    781,
+    25697
+   ]
+  },
+  {
+   "type": "event",
+   "en": "RISE OF GREEK CITY-STATES",
+   "text": "RISE OF GREEK CITY-STATES",
+   "lines": 2,
+   "align": "right",
+   "at": [
+    732,
+    25797
+   ]
+  },
+  {
+   "type": "event",
+   "en": "NEO-ASSYRIAN EMPIRE",
+   "text": "NEO-ASSYRIAN EMPIRE",
+   "align": "left",
+   "at": [
+    776,
+    25829
+   ]
+  },
+  {
+   "type": "event",
+   "en": "FIRST OLYMPICS",
+   "text": "FIRST OLYMPICS",
+   "align": "right",
+   "at": [
+    718,
+    25887
+   ]
+  },
+  {
+   "type": "event",
+   "en": "ZAPOTEC WRITING IN MODERN MEXICO",
+   "text": "ZAPOTEC WRITING IN MODERN MEXICO",
+   "lines": 2,
+   "align": "left",
+   "at": [
+    772,
+    26081
+   ]
+  },
+  {
+   "type": "event",
+   "en": "CONFUCIUS",
+   "text": "CONFUCIUS",
+   "align": "right",
+   "at": [
+    710,
+    26127
+   ]
+  },
+  {
+   "type": "event",
+   "en": "THE STUFF IN THE MOVIE 300, BUT REGULAR SPEED AND WITH MORE CLOTHING",
+   "text": [
+    "THE STUFF IN THE MOVIE 300,",
+    "BUT REGULAR SPEED AND",
+    "WITH MORE CLOTHING"
+   ],
+   "align": "right",
+   "at": [
+    719,
+    26278
+   ]
+  },
+  {
+   "type": "event",
+   "en": "BUDDHA",
+   "text": "BUDDHA",
+   "align": "left",
+   "at": [
+    768,
+    26271
+   ]
+  },
+  {
+   "type": "event",
+   "en": "NAZCA LINES",
+   "text": "NAZCA LINES",
+   "align": "left",
+   "at": [
+    769,
+    26424
+   ]
+  },
+  {
+   "type": "event",
+   "en": "ALEXANDER THE GREAT",
+   "text": "ALEXANDER THE GREAT",
+   "align": "right",
+   "at": [
+    710,
+    26434
+   ]
+  },
+  {
+   "type": "event",
+   "en": "MAYAN HIEROGLYPHICS",
+   "text": "MAYAN HIEROGLYPHICS",
+   "align": "right",
+   "at": [
+    720,
+    26523
+   ]
+  },
+  {
+   "type": "event",
+   "en": "ASHOKA THE GREAT",
+   "text": "ASHOKA THE GREAT",
+   "align": "left",
+   "at": [
+    762,
+    26550
+   ]
+  },
+  {
+   "type": "event",
+   "en": "PAPER INVENTED",
+   "text": "PAPER INVENTED",
+   "align": "right",
+   "at": [
+    716,
+    26600
+   ]
+  },
+  {
+   "type": "event",
+   "en": "ASTERIX",
+   "text": "ASTERIX",
+   "align": "right",
+   "at": [
+    706,
+    26739
+   ]
+  },
+  {
+   "type": "event",
+   "en": "TEOTIHUACÁN METROPOLIS",
+   "text": "TEOTIHUACÁN METROPOLIS",
+   "align": "left",
+   "at": [
+    761,
+    26750
+   ]
+  },
+  {
+   "type": "event",
+   "en": "JULIUS CAESAR",
+   "text": "JULIUS CAESAR",
+   "align": "right",
+   "at": [
+    703,
+    26809
+   ]
+  },
+  {
+   "type": "event",
+   "en": "ROMAN EMPIRE",
+   "text": "ROMAN EMPIRE",
+   "align": "right",
+   "at": [
+    700,
+    26887
+   ]
+  },
+  {
+   "type": "event",
+   "en": "JESUS",
+   "text": "JESUS",
+   "align": "left",
+   "at": [
+    761,
+    26890
+   ]
+  },
+  {
+   "type": "event",
+   "en": "POMPEII",
+   "text": "POMPEII",
+   "align": "right",
+   "at": [
+    692,
+    26983
+   ]
+  },
+  {
+   "type": "event",
+   "en": "THREE KINGDOMS PERIOD",
+   "text": "THREE KINGDOMS PERIOD",
+   "align": "left",
+   "at": [
+    752,
+    27207
+   ]
+  },
+  {
+   "type": "event",
+   "en": "GUPTA EMPIRE",
+   "text": "GUPTA EMPIRE",
+   "align": "right",
+   "at": [
+    701,
+    27316
+   ]
+  },
+  {
+   "type": "event",
+   "en": "VARIOUS GROUPS TAKE TURNS SACKING ROME",
+   "text": "VARIOUS GROUPS TAKE TURNS SACKING ROME",
+   "lines": 2,
+   "align": "right",
+   "at": [
+    708,
+    27459
+   ]
+  },
+  {
+   "type": "event",
+   "en": "ATTILA THE HUN",
+   "text": "ATTILA THE HUN",
+   "align": "left",
+   "at": [
+    762,
+    27470
+   ]
+  },
+  {
+   "type": "event",
+   "en": "MUHAMMAD",
+   "text": "MUHAMMAD",
+   "align": "left",
+   "at": [
+    761,
+    27646
+   ]
+  },
+  {
+   "type": "event",
+   "en": "TANG DYNASTY",
+   "text": "TANG DYNASTY",
+   "align": "right",
+   "at": [
+    713,
+    27868
+   ]
+  },
+  {
+   "type": "event",
+   "en": "MEDIEVAL WARM PERIOD IN EUROPE AND SOME NORTHERN REGIONS",
+   "text": "MEDIEVAL WARM PERIOD IN EUROPE AND SOME NORTHERN REGIONS",
+   "lines": 3,
+   "align": "left",
+   "at": [
+    846,
+    28132
+   ]
+  },
+  {
+   "type": "story",
+   "en": "LEIF ERIKSSON",
+   "text": "LEIF ERIKSSON",
+   "align": "right",
+   "at": [
+    703,
+    28143
+   ]
+  },
+  {
+   "type": "bracket",
+   "en": "(TOO REGIONAL TO AFFECT THE GLOBAL AVERAGE MUCH)",
+   "text": "(TOO REGIONAL TO AFFECT THE GLOBAL AVERAGE MUCH)",
+   "lines": 2,
+   "align": "left",
+   "at": [
+    843,
+    28235
+   ]
+  },
+  {
+   "type": "event",
+   "en": "MAGNETIC COMPASS NAVIGATION",
+   "text": "MAGNETIC COMPASS NAVIGATION",
+   "align": "right",
+   "at": [
+    704,
+    28277
+   ],
+   "wscale": 0.95
+  },
+  {
+   "type": "event",
+   "en": "GHENGIS KHAN",
+   "text": "GHENGIS KHAN",
+   "align": "right",
+   "at": [
+    687,
+    28473
+   ]
+  },
+  {
+   "type": "event",
+   "en": "ZHENG HE'S FLEET EXPLORES ASIA AND AFRICA",
+   "text": [
+    "ZHENG HE'S FLEET EXPLORES",
+    "ASIA AND AFRICA"
+   ],
+   "align": "left",
+   "at": [
+    737,
+    28726
+   ]
+  },
+  {
+   "type": "event",
+   "en": "AZTEC ALLIANCE",
+   "text": "AZTEC ALLIANCE",
+   "align": "right",
+   "at": [
+    678,
+    28739
+   ]
+  },
+  {
+   "type": "event",
+   "en": "PRINTING PRESS",
+   "text": "PRINTING PRESS",
+   "align": "right",
+   "at": [
+    675,
+    28790
+   ]
+  },
+  {
+   "type": "event",
+   "en": "COLUMBUS",
+   "text": "COLUMBUS",
+   "align": "right",
+   "at": [
+    672,
+    28836
+   ]
+  },
+  {
+   "type": "event",
+   "en": "EUROPEAN RENAISSANCE",
+   "text": "EUROPEAN RENAISSANCE",
+   "align": "left",
+   "at": [
+    727,
+    28857
+   ]
+  },
+  {
+   "type": "event",
+   "en": "SHAKESPEARE",
+   "text": "SHAKESPEARE",
+   "align": "right",
+   "at": [
+    672,
+    28965
+   ]
+  },
+  {
+   "type": "event",
+   "en": "NEWTON",
+   "text": "NEWTON",
+   "align": "right",
+   "at": [
+    661,
+    29025
+   ]
+  },
+  {
+   "type": "event",
+   "en": "\"LITTLE ICE AGE\"",
+   "text": "\"LITTLE ICE AGE\"",
+   "align": "left",
+   "at": [
+    741,
+    29067
+   ]
+  },
+  {
+   "type": "event",
+   "en": "STEAM ENGINES",
+   "text": "STEAM ENGINES",
+   "align": "left",
+   "at": [
+    716,
+    29179
+   ]
+  },
+  {
+   "type": "event",
+   "en": "UNITED STATES INDEPENDENCE",
+   "text": "UNITED STATES INDEPENDENCE",
+   "align": "right",
+   "at": [
+    676,
+    29200
+   ]
+  },
+  {
+   "type": "event",
+   "en": "INDUSTRIAL REVOLUTION",
+   "text": "INDUSTRIAL REVOLUTION",
+   "align": "left",
+   "at": [
+    752,
+    29289
+   ]
+  },
+  {
+   "type": "event",
+   "en": "TELEGRAPHS",
+   "text": "TELEGRAPHS",
+   "align": "right",
+   "at": [
+    686,
+    29298
+   ]
+  },
+  {
+   "type": "event",
+   "en": "AIRPLANES",
+   "text": "AIRPLANES",
+   "align": "right",
+   "at": [
+    685,
+    29377
+   ]
+  },
+  {
+   "type": "event",
+   "en": "FOSSIL FUEL CO₂ EMISSIONS START RAPIDLY INCREASING",
+   "text": "FOSSIL FUEL CO₂ EMISSIONS START RAPIDLY INCREASING",
+   "lines": 2,
+   "align": "left",
+   "at": [
+    753,
+    29432
+   ]
+  },
+  {
+   "type": "event",
+   "en": "WORLD WARS",
+   "text": "WORLD WARS",
+   "align": "right",
+   "at": [
+    694,
+    29415
+   ]
+  },
+  {
+   "type": "story",
+   "en": "NUCLEAR WEAPONS",
+   "text": "NUCLEAR WEAPONS",
+   "align": "right",
+   "at": [
+    699,
+    29456
+   ]
+  },
+  {
+   "type": "event",
+   "en": "INTERNET",
+   "text": "INTERNET",
+   "align": "right",
+   "at": [
+    727,
+    29492
+   ]
+  },
+  {
+   "type": "event",
+   "en": "NORTHWEST PASSAGE OPENS",
+   "text": "NORTHWEST PASSAGE OPENS",
+   "align": "left",
+   "at": [
+    852,
+    29513
+   ]
+  },
+  {
+   "type": "scenario",
+   "en": "PRESENT DAY",
+   "text": "PRESENT DAY",
+   "align": "center",
+   "at": [
+    346,
+    29540
+   ]
+  },
+  {
+   "type": "scenario",
+   "en": "BEST-CASE SCENARIO ASSUMING IMMEDIATE, MASSIVE ACTION TO LIMIT EMISSIONS",
+   "text": [
+    "BEST-CASE SCENARIO",
+    "ASSUMING IMMEDIATE,",
+    "MASSIVE ACTION TO",
+    "LIMIT EMISSIONS"
+   ],
+   "align": "right",
+   "at": [
+    844,
+    29645
+   ]
+  },
+  {
+   "type": "scenario",
+   "en": "OPTIMISTIC SCENARIO",
+   "text": "OPTIMISTIC SCENARIO",
+   "lines": 2,
+   "align": "left",
+   "at": [
+    883,
+    29697
+   ]
+  },
+  {
+   "type": "scenario",
+   "en": "CURRENT PATH",
+   "text": "CURRENT PATH",
+   "align": "center",
+   "at": [
+    1229,
+    29698
+   ]
+  }
+ ],
+ "attribution": {
+  "from": "FROM",
+  "by": "BY",
+  "originalWorkLicensed": "ORIGINAL WORK LICENSED",
+  "unofficialAdaptation": "UNOFFICIAL ADAPTATION"
+ }
+}
