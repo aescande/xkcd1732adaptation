@@ -2,8 +2,7 @@
 #
 # The page and the render live apart in the repository -- HTML in site/,
 # the PNG in results/ -- so that the image exists in exactly one place in
-# git. This job is what brings them together, and it is the only reason
-# they can stay separate.
+# git. This job brings them together.
 name: Deploy site
 
 on:
@@ -11,7 +10,7 @@ on:
     branches: [main]
     paths:
       - 'site/**'
-      - 'results/fr/**'
+      - 'results/**'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 
@@ -32,11 +31,23 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
+      # One language folder per site/<lang>/index.html that has a render in
+      # results/<lang>/. A language with no render is left out rather than
+      # published with a missing image.
       - name: Assemble the site
         run: |
-          mkdir -p _site/fr
+          mkdir -p _site
           cp -r site/. _site/
-          cp results/fr/timeline.png _site/fr/timeline.png
+          for dir in _site/*/; do
+            lang=$(basename "$dir")
+            if [ -f "results/$lang/timeline.png" ]; then
+              cp "results/$lang/timeline.png" "$dir/timeline.png"
+              echo "published: $lang"
+            else
+              rm -rf "$dir"
+              echo "skipped (no render): $lang"
+            fi
+          done
 
       - uses: actions/upload-pages-artifact@v5
         with:

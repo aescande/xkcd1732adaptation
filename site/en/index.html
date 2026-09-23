@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- width=device-width so a phone lays out at its own width. Zoom stays
+     enabled on purpose: the strip is legible at full width, but the fine
+     lettering rewards pinching into it. -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>A Timeline of Earth's Average Temperature — after xkcd 1732</title>
+<meta name="description" content="An unofficial SVG reconstruction of “A Timeline of Earth's Average Temperature” by Randall Munroe (xkcd 1732).">
+
+<!-- Keeps the page out of search results. Delete this one line to allow
+     indexing; nothing else depends on it. -->
+<meta name="robots" content="noindex, nofollow">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="A Timeline of Earth's Average Temperature">
+<meta property="og:description" content="An unofficial SVG reconstruction of xkcd 1732, by Randall Munroe.">
+<!-- No og:image, deliberately: the strip is 1600 x 29913, and a link preview
+     would crop it to an unreadable sliver. A dedicated 1200 x 630 card image
+     can be added here later. -->
+
+<style>
+  html { background: #fff; }
+  body { margin: 0; }
+
+  /* The strip carries its own title, subtitle, sources and credit block, so
+     the page is nothing but the image.
+
+     Full viewport width, capped at the export's native 1600 px. Past that it
+     would be upscaled and the lettering would soften; below it, browsers
+     downscale cleanly. The width and height attributes on the element give
+     the browser the aspect ratio before the image arrives, so the page
+     reserves its full height immediately and the scrollbar does not jump. */
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1600px;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+
+<img src="timeline.png"
+     width="1600" height="29913"
+     alt="A timeline of Earth's average temperature since the last ice age:
+          22,000 years of reconstructed temperatures annotated with historical
+          events, followed by three scenarios to 2100. An unofficial
+          reconstruction of xkcd 1732 by Randall Munroe.">
+
+</body>
+</html>
