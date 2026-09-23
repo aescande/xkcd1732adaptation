@@ -4,9 +4,9 @@ Rebuilds [*A Timeline of Earth's Average Temperature*](https://xkcd.com/1732/)
 by Randall Munroe as SVG, from geometry measured off the original artwork, and
 draws it in any language from a translation file.
 
-Two editions are included: English, which reproduces Munroe's own text and
-serves as the reference, and French. The French edition is published at
-[aescande.github.io/xkcd1732adaptation/fr/](https://aescande.github.io/xkcd1732adaptation/fr/).
+Two editions are included so far: English, which reproduces Munroe's own text and
+serves as the reference, and French. The editions can be seen from here:
+[aescande.github.io/xkcd1732adaptation/](https://aescande.github.io/xkcd1732adaptation/).
 
 This is an unofficial adaptation. It is not affiliated with, nor endorsed by,
 Randall Munroe or xkcd. The original work is licensed
@@ -42,6 +42,7 @@ python tests/test_linebreak.py
 python tests/test_adaptation.py
 python tests/test_keys.py
 python tests/test_build.py
+python tests/test_site.py
 ```
 
 `test_build.py` builds every edition in `data/` in a temporary folder and
@@ -86,18 +87,18 @@ up any language that has both. `site/index.html` still forwards to `fr/`.
 
 ## Site
 
-`.github/workflows/pages.yml` copies `site/`, then puts
-`results/<lang>/timeline.png` beside each `site/<lang>/index.html`. A language
-with no render is left out of the deployment.
+`site/build_site.py` assembles the site into `_site/`: one folder per
+`site/<lang>/index.html` that has a render in `results/<lang>/timeline.png`,
+with the language links and the index list filled in from the pages that were
+kept. A language with no render is left out.
 
-To preview a page locally, copy its image in by hand first (the copy is
+`.github/workflows/pages.yml` runs it on every push and deploys `_site/`. To
+see the site locally, run it yourself and open the result (`_site/` is
 git-ignored):
 
 ```
-python -c "import shutil; shutil.copy('results/fr/timeline.png', 'site/fr/timeline.png')"
+python site/build_site.py
 ```
-
-then open `site/fr/index.html`.
 
 ## Licensing
 

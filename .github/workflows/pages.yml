@@ -31,23 +31,12 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      # One language folder per site/<lang>/index.html that has a render in
-      # results/<lang>/. A language with no render is left out rather than
-      # published with a missing image.
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
       - name: Assemble the site
-        run: |
-          mkdir -p _site
-          cp -r site/. _site/
-          for dir in _site/*/; do
-            lang=$(basename "$dir")
-            if [ -f "results/$lang/timeline.png" ]; then
-              cp "results/$lang/timeline.png" "$dir/timeline.png"
-              echo "published: $lang"
-            else
-              rm -rf "$dir"
-              echo "skipped (no render): $lang"
-            fi
-          done
+        run: python site/build_site.py
 
       - uses: actions/upload-pages-artifact@v5
         with:

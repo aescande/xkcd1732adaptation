@@ -33,6 +33,7 @@ jobs:
           python tests/test_linebreak.py
           python tests/test_adaptation.py
           python tests/test_keys.py
+          python tests/test_site.py
 
       - name: Build both editions and compare with the references
         run: python tests/test_build.py

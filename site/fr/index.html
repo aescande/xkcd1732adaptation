@@ -14,6 +14,10 @@
      indexing; nothing else depends on it. -->
 <meta name="robots" content="noindex, nofollow">
 
+<!-- The name of this edition, in its own language: build_site.py
+     collects these into the language links and the index. -->
+<meta name="edition" content="Français">
+
 <meta property="og:type" content="website">
 <meta property="og:title" content="Chronologie de la température moyenne de la Terre">
 <meta property="og:description" content="Adaptation française non officielle de xkcd 1732, de Randall Munroe.">
@@ -33,6 +37,17 @@
      downscale cleanly. The width and height attributes on the element give
      the browser the aspect ratio before the image arrives, so the page
      reserves its full height immediately and the scrollbar does not jump. */
+  /* The language links, in the page's own margin: they scroll away with the
+     image rather than covering it. */
+  .switch {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 10px 16px 6px;
+    font: 14px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #6b6b6b;
+  }
+  .switch a { color: inherit; }
+
   img {
     display: block;
     margin: 0 auto;
@@ -43,6 +58,8 @@
 </style>
 </head>
 <body>
+
+<!--switch-->
 
 <img src="timeline.png"
      width="1600" height="29913"
