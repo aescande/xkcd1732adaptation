@@ -23,6 +23,39 @@ Keys not listed here are refused by the build, as are unknown entry types.
 A JSON file under `data/` carrying `entries` and `locale` is an edition, and
 `tests/test_build.py` builds it and compares it with a recorded hash.
 
+## Writing an edition
+
+Everything drawn comes from this file: the `locale` block, the entries, the
+hover text, the sources credit and the attribution. There is no code-side
+fallback, so a missing key stops the build rather than drawing a stale mix.
+Layer and object names in the SVG stay English.
+
+Year labels follow the original: every BCE label carries the era, the first
+three CE labels carry it, 1600 onwards are bare.
+
+### Characters the font lacks
+
+The font has no `°`, `²`, `₂`, `ᵉ`, `«`, `»` or `…`. The first six are drawn
+by the renderer, so write them normally; `…` is not, so write `...` instead.
+Every accented French capital is present. A character the font cannot draw
+comes out as an empty box; the build warns when it finds one in the credits,
+which are drawn without substitution.
+
+### When translated text does not fit
+
+French runs 15–20% wider than English, which moves things. Three levers, in
+increasing order of intrusiveness:
+
+- **`fontSize`, `wscale` or `lines`** on the entry. `wscale` condenses about
+  the anchor, so the block still grows from the edge `align` nominates.
+- **`figureOffsets`**, e.g. `{"sub03": [72, 0]}`, when a wider label runs into
+  the arrow pointing at it. A figure carries the labels drawn on it.
+- **`at`** on the entry, to move the block itself.
+
+The line breaker takes a fixed line count and has no width limit: a longer
+string gives wider lines, not more of them. If a block overruns, give it
+another line.
+
 ---
 
 ## `entries[]`
@@ -188,7 +221,9 @@ The title text. Not part of the artwork; written to the SVG `<title>`.
 ```
 
 All four `attribution` keys are required. The title, author, URL and licence
-of the original come from `build_svg.py`. The result, below the frame:
+of the original come from constants in `build_svg.py`, so a translation cannot
+drop or alter them; this file supplies only the connective wording, plus any
+free-text `credits` lines. The result, below the frame:
 
 ```
 <from> "<title>" <by> <author> — <url>
@@ -255,7 +290,7 @@ image; an added entry missing a required field; a malformed shift; a
 non-integer year. All fail before drawing; a missing PNG only warns.
 `tests/test_adaptation.py` covers each.
 
-The block is repeated in every translation file; nothing checks that they
+The block is repeated in every translation file; nothing checks that editions
 agree.
 
 ---
